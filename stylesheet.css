@@ -1,0 +1,107 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url(images/ai\ art\ hero2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-position: center;
+}
+
+.main-page {
+  display: flex;
+
+  height: 1100px;
+}
+
+.logo img {
+  width: 150px;
+  height: 150px;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  width: 1110px;
+}
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  opacity: 90%;
+  align-items: center;
+  border: 1px solid black;
+  width: 100%;
+}
+.menu {
+  color: white;
+}
+.menu ol {
+  display: flex;
+  list-style-type: none;
+}
+.menu li {
+  padding-left: 200px;
+  font-size: 24px;
+  cursor: pointer;
+}
+li:hover {
+  color: #a88c5c;
+}
+.hero-text {
+  width: 900px;
+  height: 700px;
+  margin-left: 50px;
+  margin-top: 200px;
+}
+.hero-title {
+  text-align: center;
+
+  color: #a88c5c;
+  font-weight: bold;
+  font-size: 40px;
+}
+.hero-body {
+  width: 700px;
+  font-family: 'Berkshire Swash';
+  color: white;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+.hero-button button {
+  width: 300px;
+  height: 50px;
+  background-color: rgb(161, 127, 72);
+  border: none;
+  color: black;
+  font-size: 20px;
+}
+.hero-button {
+  margin-left: 50px;
+  margin-top: 100px;
+}
+@media (max-width: 1800px) {
+  .hero-title {
+    width: 700px;
+    font-size: 30px;
+  }
+  .hero-text {
+    margin-left: 10px;
+  }
+  .hero-body {
+    width: 500px;
+  }
+}
+@media (max-width: 1400px) {
+  .hero-title {
+    width: 400px;
+  }
+  .hero-body {
+    width: 300px;
+  }
+}
