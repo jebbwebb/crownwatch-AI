@@ -217,3 +217,9 @@ ol li::marker {
     display: none;
   }
 }
+@media (max-width: 420px) {
+  .socials-container h2 {
+    width: 70%;
+    margin-left: 20px;
+  }
+}

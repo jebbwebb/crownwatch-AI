@@ -104,4 +104,12 @@ li:hover {
   .hero-body {
     width: 300px;
   }
+  .nav {
+    display: none;
+  }
+}
+@media (max-width: 400px) {
+  .hero-text {
+    margin-left: 0;
+  }
 }
