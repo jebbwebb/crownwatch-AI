@@ -207,6 +207,13 @@ ol li::marker {
     margin-bottom: 50px;
     text-align: center;
   }
+  .product-page {
+    background-image: url(images/ai\ mobile2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    background-position: center;
+  }
   .tagline {
     width: 100%;
   }
