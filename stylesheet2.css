@@ -166,7 +166,7 @@ ol li::marker {
 }
 
 .footer-menu a {
-  padding-left: 200px;
+  margin-left: 200px;
 }
 a:hover {
   color: rgb(130, 103, 61);
