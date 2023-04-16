@@ -20,16 +20,25 @@ body {
   color: white;
   justify-content: center;
 }
+.product-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .product-text {
   width: 600px;
   margin-top: 200px;
   margin-left: 200px;
-}
-.tagline {
-  width: 400px;
   text-align: center;
+}
 
+.tagline {
+  width: 500px;
+
+  font-family: 'Playfair Display', serif;
   color: rgb(172, 159, 121);
+  display: flex;
 
   font-size: 20px;
 }
@@ -37,13 +46,17 @@ body {
   padding-left: 20px;
 }
 .product-text h1 {
-  color: rgb(168, 140, 92);
+  color: rgb(161, 127, 72);
   font-size: 55px;
   font-weight: bold;
+  width: 600px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
 }
 .product-text p {
   font-size: 20px;
-  font-family: 'Berkshire Swash';
+  font-family: 'Lato', sans-serif;
+
   margin-top: 50px;
 }
 .product-image {
@@ -66,7 +79,6 @@ button {
   color: black;
   font-size: 20px;
   margin-top: 50px;
-  margin-left: 75px;
 }
 .second-page {
   display: flex;
@@ -90,6 +102,7 @@ button {
 }
 .features li {
   padding-top: 20px;
+  font-family: 'Lato', sans-serif;
 }
 ol li::marker {
   color: rgb(130, 103, 61);
@@ -99,6 +112,11 @@ ol li::marker {
   margin-top: 10px;
   padding-bottom: 50px;
   line-height: 30px;
+  font-family: 'Lato', sans-serif;
+}
+.description h1 {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
 }
 .features h1 {
   margin-left: 40px;
@@ -132,6 +150,9 @@ ol li::marker {
 .socials-container {
   margin-left: 150px;
 }
+.footer-menu {
+  margin-left: 200px;
+}
 
 .footer-menu a {
   padding-left: 200px;
@@ -140,6 +161,11 @@ ol li::marker {
   position: relative;
   left: 800px;
   bottom: 100px;
+}
+@media (max-width: 1510px) {
+  .footer-menu {
+    margin-left: 0px;
+  }
 }
 @media (max-width: 1300px) {
   .footer-nav {
@@ -198,20 +224,25 @@ ol li::marker {
   .socials {
     top: 0;
     left: 0;
+    margin-right: 50px;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1300px) {
   .product-text {
     width: 100%;
     margin-left: 0px;
     margin-bottom: 50px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 800px;
+  }
+  .product-text h1 {
+    width: 100%;
   }
 
   button {
     margin-top: 20px;
-    width: 80%;
+    width: 50%;
+    margin-left: 0px;
   }
   .product-page {
     background-image: url(images/ai\ mobile2.png);
@@ -220,19 +251,17 @@ ol li::marker {
 
     background-position: center;
   }
-  .tagline {
-    width: 100%;
-  }
-  button {
-    margin-left: 0px;
-  }
+
   .product-image {
     display: none;
   }
 }
-@media (max-width: 420px) {
+@media (max-width: 470px) {
   .socials-container h2 {
     width: 70%;
     margin-left: 20px;
+  }
+  .tagline {
+    width: 100%;
   }
 }
