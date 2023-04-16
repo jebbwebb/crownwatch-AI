@@ -79,6 +79,13 @@ button {
   color: black;
   font-size: 20px;
   margin-top: 50px;
+  margin-right: 50px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+button:hover {
+  color: white;
+  cursor: pointer;
 }
 .second-page {
   display: flex;
@@ -137,10 +144,12 @@ ol li::marker {
 }
 .footer-nav h1 {
   margin-left: 50px;
+  font-family: 'Playfair Display', serif;
 }
 .footer-text {
   width: 600px;
   margin-left: 150px;
+  font-family: 'Lato', sans-serif;
 }
 .footer-nav {
   display: flex;
@@ -149,13 +158,19 @@ ol li::marker {
 }
 .socials-container {
   margin-left: 150px;
+  font-family: 'Playfair Display', serif;
 }
 .footer-menu {
   margin-left: 200px;
+  font-family: 'Playfair Display', serif;
 }
 
 .footer-menu a {
   padding-left: 200px;
+}
+a:hover {
+  color: rgb(130, 103, 61);
+  cursor: pointer;
 }
 .socials {
   position: relative;
