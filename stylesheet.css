@@ -27,6 +27,7 @@ body {
   justify-content: space-between;
   height: 100px;
   width: 1110px;
+  display: none;
 }
 .nav-container {
   display: flex;
@@ -112,6 +113,9 @@ li:hover {
   }
   .nav {
     display: none;
+  }
+  .hero-button button {
+    width: 200px;
   }
 }
 @media (max-width: 600px) {
