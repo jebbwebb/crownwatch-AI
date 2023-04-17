@@ -145,5 +145,6 @@ li:hover {
   body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
       url(images/ai\ art\ hero2.png);
+    background-position: 64%;
   }
 }
